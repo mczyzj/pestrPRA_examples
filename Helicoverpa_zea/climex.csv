@@ -1,0 +1,33 @@
+Czynnik klimatyczny,kod,opis,wartość
+Temperatura,DV0,temperatura limitująca dolna,12
+Temperatura,DV1,temperatura optymalna dolna,18
+Temperatura,DV2,temperatura optymalna gótna,35
+Temperatura,DV3,temperatura limitująca górna,42
+Wilgotność,SM0,wilgotność limitująca dolna,0.02
+Wilgotność,SM1,wilgotność optymalna dolna,0.7
+Wilgotność,SM2,wilgotność optymalna górna,1.5
+Wilgotność,SM3,wilgotność limitująca górna,2.5
+Diapauza,DPD0,Długość dnia inicjująca diapuazę,12
+Diapauza,DPT0,Temperatura inicjująca diapauzę,12
+Diapauza,DPT1,Temperatura hamująca diapauzę,13
+Diapauza,DPD0,Liczba dnia potrzebna do ukończenia diapauzy,-69
+Diapauza,DPSW,Wskaźnik: "0 – diapauza zimowa, 1 – diapauza letnia",0
+Stres zimna,TTCS,temperatura progowa,5
+Stres zimna,THCS,tempo akumulacji,-0.0003
+Stres cieplny,TTHS,temperatura progowa,42
+Stres cieplny,THHS,tempo akumulacji,0.001
+Stres suszy,SMDS,wilgotność progowa,0.02
+Stres suszy,HDS,tempo akumulacji,-0.005
+Stres wilgotności,SMWS,wilgotność progowa,2.5
+Stres wilgotności,HWS,tempo akumulacji,0.005
+Stres zimna-wilgotności,DTCW,Minimalna liczba stopniodni powyżej DVCS,80
+Stres zimna-wilgotności,MTCW,wilgotność progowa,1
+Stres zimna-wilgotności,PCW,tempo akumulacji,0.1
+Akumulacja stopnio-dni powyżej DV0,DV0,,12
+Akumulacja stopnio-dni powyżej DV0,DV3,,42
+Akumulacja stopnio-dni powyżej DV3,DV3,,42
+Akumulacja stopnio-dni powyżej DV3,DV4,,100
+Akumulacja stopnio-dni powyżej DVCS,DVCS,,0
+Akumulacja stopnio-dni powyżej DVCS,DV4,,100
+Stoopnio-dni na pokolenie,PDD,minimalna liczna stopnio-dni powyżej DV0 do ukończenia pokolenia,690
+
